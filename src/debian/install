@@ -1,0 +1,32 @@
+# основной скрипт/приложение
+src/rockfeller_system_restore.py opt/rockfeller-system-restore/rockfeller-system-restore.py
+
+# можно положить дополнительные ресурсы
+src/icons/RSR_1024.png opt/rockfeller-system-restore/icons/RSR_1024.png
+src/icons/RSR_512.png  opt/rockfeller-system-restore/icons/RSR_512.png
+src/icons/RSR_256.png  opt/rockfeller-system-restore/icons/RSR_256.png
+src/icons/RSR_128.png  opt/rockfeller-system-restore/icons/RSR_128.png
+src/icons/RSR_64.png   opt/rockfeller-system-restore/icons/RSR_64.png
+src/icons/RSR_48.png   opt/rockfeller-system-restore/icons/RSR_48.png
+src/icons/RSR_32.png   opt/rockfeller-system-restore/icons/RSR_32.png
+src/icons/RSR_24.png   opt/rockfeller-system-restore/icons/RSR_24.png
+src/icons/RSR_16.png   opt/rockfeller-system-restore/icons/RSR_16.png
+src/icons/RSR.svg      opt/rockfeller-system-restore/icons/RSR.svg
+src/icons/RSR_animated.svg opt/rockfeller-system-restore/icons/RSR_animated.svg
+src/icons/RSR_loader.gif    opt/rockfeller-system-restore/icons/RSR_loader.gif
+
+# иконки для системы (hicolor)
+src/icons/RSR_16.png   usr/share/icons/hicolor/16x16/apps/rsr.png
+src/icons/RSR_24.png   usr/share/icons/hicolor/24x24/apps/rsr.png
+src/icons/RSR_32.png   usr/share/icons/hicolor/32x32/apps/rsr.png
+src/icons/RSR_48.png   usr/share/icons/hicolor/48x48/apps/rsr.png
+src/icons/RSR_64.png   usr/share/icons/hicolor/64x64/apps/rsr.png
+src/icons/RSR_128.png  usr/share/icons/hicolor/128x128/apps/rsr.png
+src/icons/RSR_256.png  usr/share/icons/hicolor/256x256/apps/rsr.png
+src/icons/RSR_512.png  usr/share/icons/hicolor/512x512/apps/rsr.png
+
+# desktop-файл
+src/debian/rockfeller-system-restore.desktop usr/share/applications/rockfeller-system-restore.desktop
+
+# шорткат в /usr/bin
+src/debian/rockfeller-system-restore-launcher usr/bin/rockfeller-system-restore
