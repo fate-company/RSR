@@ -1,0 +1,9 @@
+Package: rsr
+Version: 1.2.1
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Rockfeller <dev@rockfeller>
+Depends: python3, python3-pyqt6
+Description: Rockfeller System Restore - Premium System Backup Tool
+ A full-system backup tool with neon UI and cloud updates.

@@ -1,0 +1,11 @@
+Package: rockfeller-system-restore
+Version: 1.2.1
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Fate Company <you@example.com>
+Depends: python3, python3-pyqt6, rsync
+Description: Rockfeller System Restore
+ Rockfeller System Restore (RSR) — премиальное неоновое приложение для
+ резервного копирования и восстановления системы Ubuntu с поддержкой
+ OTA-обновлений (RSR Update), стеклянным интерфейсом и новостной лентой.

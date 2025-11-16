@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=RSR
+Comment=Rockfeller System Restore
+Exec=/opt/rsr/app/main.py
+Icon=rsr
+Terminal=false
+Type=Application
+Categories=Utility;

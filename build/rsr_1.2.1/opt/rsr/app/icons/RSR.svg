@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512"
+ xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="goldGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE9A3" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#FFCF3A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#C28A00" stop-opacity="0.0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+       values="1 0 0 0 0
+               0 1 0 0 0
+               0 0 0.5 0 0
+               0 0 0 1 0" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="none"/>
+  <g filter="url(#glow)">
+    <circle cx="256" cy="256" r="200" fill="none" stroke="#FFD95A" stroke-width="20"/>
+    <circle cx="256" cy="256" r="170" fill="url(#goldGrad)"/>
+  </g>
+  <text x="50%" y="54%" text-anchor="middle" font-family="SF Pro Text, system-ui, sans-serif"
+        font-weight="700" font-size="140" fill="#FFD766">
+    RSR
+  </text>
+</svg>
